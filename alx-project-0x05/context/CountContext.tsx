@@ -5,7 +5,7 @@ import { createContext, useContext,  useState, ReactNode } from "react"
 // count
 // increment
 // decrement
-interface CountContextProps{
+interface CountContextProps {
   count: number
   increment: () => void;
   decrement: () => void;
