@@ -8,7 +8,8 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
   return (
     <>
       <Header />
-      <main>{children}</main>
+      {/* <main>{children}</main> */}
+      <main className="pt-28">{children}</main> {/* add padding top */}
       <Footer />
     </>
   );
