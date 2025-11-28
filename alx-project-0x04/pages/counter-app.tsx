@@ -3,6 +3,9 @@ import { useState } from 'react';
 const CounterApp: React.FC = () => {
   const [count, setCount] = useState(0);
 
+// count = the current number
+// setCount() = function that changes it
+
   const increment = () => {
     setCount(count + 1);
   };
