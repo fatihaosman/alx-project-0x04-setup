@@ -9,10 +9,12 @@ import { CountProvider } from "@/context/CountContext";
 // }
 export default function App({ Component, pageProps }: AppProps) {
   return (
-    <CountProvider>
+  <div  className="mt-28">
+      <CountProvider>
       <Layout>
         <Component {...pageProps} />
       </Layout>
     </CountProvider>
+  </div>
   )
 }
